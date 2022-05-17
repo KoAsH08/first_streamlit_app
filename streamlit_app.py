@@ -8,3 +8,5 @@ streamlit.text('Idly')
 streamlit.text('Dosa')
 streamlit.text('Pongal')
 streamlit.text('Tea')
+
+streamlit.header('🍌🥭 Build Your Own Fruit Smoothie 🥝🍇')
