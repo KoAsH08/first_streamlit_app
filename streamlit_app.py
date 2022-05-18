@@ -29,7 +29,8 @@ streamlit.header('FruityVice Fruit Advice!')
 try:
   fruit_choice = streamlit.text_input('What fruit would you like information about?', 'Apple')
 if not fruit_choice:
-     streamlit.write('The user entered', fruit_choice)
+     #streamlit.write('The user entered', fruit_choice)
+     streamlit.error("Please select a fruit to get information.")
 else:
 
       # New section to display FruityVice API response
