@@ -26,4 +26,6 @@ streamlit.header('FruityVice Fruit Advice!')
 # New section to display FruityVice API response
 import requests
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/watermelon")
-streamlit.text(fruityvice_response.json())
+streamlit.text(fruityvice_response.json()) # Just writes the response on the screen
+
+
